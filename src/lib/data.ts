@@ -8,6 +8,18 @@ export interface Project {
   externalUrl?: string;
 }
 
+export interface Leadership {
+  organization: string;
+  role: string;
+  description: string;
+  activities: string[];
+  notable_guests: string[];
+  interviews: string[];
+  social_links: {
+    instagram: string;
+  };
+}
+
 export const portfolioData = {
   owner: {
     name: "Jitesh Kumar Jha",
@@ -101,6 +113,31 @@ export const portfolioData = {
       ],
     },
   ] as Project[],
+
+  leadership: [
+    {
+      organization: "JSRMUN",
+      role: "Founder & Organizer",
+      description: "Founded a Model United Nations organization focused on diplomacy, debate, and policy discussions.",
+      activities: [
+        "Organized Model United Nations conferences",
+        "Hosted interactive sessions with lawyers and military veterans",
+        "Collaborated with Jamshedpur FC for institutional engagement"
+      ],
+      "notable_guests": [
+        "Ambassador of Uruguay to India",
+        "High Commissioner of Malaysia to India",
+        "Commodore Vijay Pal Singh Rawat",
+        "Major Samar Toor"
+      ],
+      "interviews": [
+        "Interview with lawyer Dr Harishankar Jain (Ram Janmabhoomi case)"
+      ],
+      "social_links": {
+        "instagram": "https://www.instagram.com/jsrmun?igsh=czJ1MXJ3dG53cDJz"
+      }
+    }
+  ] as Leadership[],
 
   skills: {
     programming: ["Python", "Java", "TypeScript", "JavaScript"],
