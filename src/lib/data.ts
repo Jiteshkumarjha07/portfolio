@@ -122,7 +122,8 @@ export const portfolioData = {
       activities: [
         "Organized Model United Nations conferences",
         "Hosted interactive sessions with lawyers and military veterans",
-        "Collaborated with Jamshedpur FC for institutional engagement"
+        "Collaborated with Jamshedpur FC for institutional engagement",
+        "Collaborated with IIT Bhubaneswar (IIT BBSR)"
       ],
       "notable_guests": [
         "Ambassador of Uruguay to India",
