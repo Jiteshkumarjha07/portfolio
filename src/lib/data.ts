@@ -132,7 +132,9 @@ export const portfolioData = {
         "Major Samar Toor"
       ],
       "interviews": [
-        "Interview with lawyer Dr Harishankar Jain (Ram Janmabhoomi case)"
+        "Interview with lawyer Dr Harishankar Jain (Ram Janmabhoomi case)",
+        "Interview with Sunil Chhetri (Indian Football Legend)",
+        "Interview with CDR Bijay Nair"
       ],
       "social_links": {
         "instagram": "https://www.instagram.com/jsrmun?igsh=czJ1MXJ3dG53cDJz"
