@@ -24,7 +24,14 @@ export function Experience() {
                 {exp.period}
               </div>
               <div className="space-y-4">
-                <div>
+                <div className="flex items-center gap-3">
+                  {(exp as any).logo && (
+                    <img 
+                      src={(exp as any).logo} 
+                      alt={`${exp.company} logo`} 
+                      className="h-8 w-8 object-contain shrink-0 rounded-md" 
+                    />
+                  )}
                   <h3 className="text-xl font-bold text-foreground">
                     {exp.role} <span className="text-primary">@</span> {exp.company}
                   </h3>

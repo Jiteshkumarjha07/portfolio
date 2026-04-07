@@ -28,7 +28,15 @@ export function Projects() {
               className="group relative flex flex-col justify-between overflow-hidden rounded-xl border border-white/10 bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg dark:hover:border-primary/50"
             >
               <div className="flex items-center justify-between mb-8">
-                <Folder className="h-10 w-10 text-primary transition-transform group-hover:scale-110" />
+                {(project as any).logo ? (
+                  <img 
+                    src={(project as any).logo} 
+                    alt={`${project.name} logo`} 
+                    className="h-10 w-10 object-contain transition-transform group-hover:scale-110 rounded-md" 
+                  />
+                ) : (
+                  <Folder className="h-10 w-10 text-primary transition-transform group-hover:scale-110" />
+                )}
                 <div className="flex gap-4">
                   {project.githubUrl && (
                     <a

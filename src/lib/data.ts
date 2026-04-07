@@ -66,6 +66,17 @@ export const portfolioData = {
 
   experience: [
     {
+      role: "CEO & Founder",
+      company: "Alumnest",
+      period: "Feb 2026 - Present",
+      logo: "/alumnest-logo.jpeg",
+      details: [
+        "Registered the company and leading a cross-functional team of 6 members",
+        "Successfully grew the waitlist to 1,000+ people",
+        "Managed product strategy and development in preparation for the upcoming launch",
+      ],
+    },
+    {
       role: "Technical Advisor",
       company: "The Other Way",
       period: "Oct 2025 - Feb 2026",
@@ -84,6 +95,7 @@ export const portfolioData = {
     {
       name: "Alumnest",
       description: "An active startup — a digital platform enabling alumni networking, collaboration, and marketplace functionality. MVP is live and ready.",
+      logo: "/alumnest-logo.jpeg",
       technologies: ["Next.js", "React", "TypeScript", "Firebase", "TailwindCSS", "Node.js"],
       features: ["Alumni profiles", "Messaging system", "Community groups", "Alumni marketplace"],
       badge: "🚀 Startup · MVP Ready",
@@ -115,6 +127,23 @@ export const portfolioData = {
   ] as Project[],
 
   leadership: [
+    {
+      organization: "Alumnest",
+      role: "CEO & Founder",
+      logo: "/alumnest-logo.jpeg",
+      description: "Leading the development and strategy of Alumnest, a digital ecosystem designed to revolutionize alumni networking and collaboration.",
+      activities: [
+        "Leading a cross-functional team of 6 members across engineering and product",
+        "Successfully secured 1,000+ signups on the pre-launch waitlist",
+        "Architecting the product vision and defining the core marketplace dynamics",
+        "Managing legal registration and foundational business operations"
+      ],
+      notable_guests: [],
+      interviews: [],
+      social_links: {
+        instagram: ""
+      }
+    },
     {
       organization: "JSRMUN",
       role: "Founder & Organizer",
